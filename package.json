@@ -1,0 +1,22 @@
+{
+  "name": "time-stamp-microservice",
+  "version": "1.0.0",
+  "description": "Backend project on Freecodecamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nqdai1992/Timestamp_Microservice_Freecodecamp.git"
+  },
+  "author": "Dainguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nqdai1992/Timestamp_Microservice_Freecodecamp/issues"
+  },
+  "homepage": "https://github.com/nqdai1992/Timestamp_Microservice_Freecodecamp#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
