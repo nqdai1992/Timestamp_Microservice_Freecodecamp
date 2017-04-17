@@ -21,4 +21,4 @@ app.get('/:timeInfo', (req,res)=>{
     var jsonResult = {unix:unixTime, natural: naturalTime};
     res.send(JSON.stringify(jsonResult));
 });
-app.listen(process.argv[2]||3000);
+app.listen(process.env.PORT||5000);
